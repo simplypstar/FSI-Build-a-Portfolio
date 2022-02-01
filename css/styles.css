@@ -1,0 +1,37 @@
+body {background-color: #ccfff2;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+img {
+    border: 2px solid black;
+    border-radius: 20%;
+    display: block;
+    object-fit: contain;
+    cursor:grabbing;
+}
+
+#flowerImg {
+    margin: auto;
+}
+
+#treeImg {
+    margin: auto;
+}
+
+#shoeImg {
+    margin: auto;
+}
+p {
+    font-family: Tahoma, Verdana, sans-serif;
+    cursor:pointer;
+ }
